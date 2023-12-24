@@ -10,7 +10,7 @@
           TYPEDEF
 
 "typedef" sözcüğü "type definition" (tip tanımlaması) sözcüklerinden gelir.
-typedef ile var olan veri tiplerini yeni bir isme dönüştürmemize olanak sağlar.
+typedef, var olan veri tiplerini yeni bir isme dönüştürmemize olanak sağlar.
 "struct" ile kullanılabilir, kullanıldığında "struct <isim>" yazmak yerine sadece struct'a tanımladığımız ismi kullanmamız yeterli olur.
 
 örnek : 
