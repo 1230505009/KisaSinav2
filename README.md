@@ -49,7 +49,7 @@ struct <isim>{
 
       AÇIK ARTTIRMA 
 
-Farklı açık artırma türleri vardır, bunlardna bazıları : 
+Farklı açık artırma türleri vardır, bunlardan bazıları : 
 
 
    English Auction(İngiliz müzayedesi) : 
