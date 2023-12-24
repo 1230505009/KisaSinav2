@@ -10,7 +10,6 @@ typedef struct {
 
 typedef struct {
 
-    int teklifveren_sayisi;
     int teklifveren_no;
     double teklif;
 
@@ -80,18 +79,18 @@ int main() {
     int teklifveren_sayisi;
 
 
-//Değişkenleri kullanıcıdan ister
+//DeÃ°iÃ¾kenleri kullanÃ½cÃ½dan ister
 
     printf("Teklif veren kac kisi var ? : ");
     scanf("%d", &teklifveren_sayisi);
 
 
-//"malloc" fonksiyonu ile kullanıcının girdiği "teklifveren_sayisi" kadar hafızada yer ayrılır
+//"malloc" fonksiyonu ile kullanÃ½cÃ½nÃ½n girdiÃ°i "teklifveren_sayisi" kadar hafÃ½zada yer ayrÃ½lÃ½r
 
     Teklif* teklifler = (Teklif*)malloc(teklifveren_sayisi * sizeof(Teklif));
 
 
-//NULL şeklinde bir pointer döndürmüş ise programı durdurur
+//NULL Ã¾eklinde bir pointer dÃ¶ndÃ¼rmÃ¼Ã¾ ise programÃ½ durdurur
 
     if (teklifveren_sayisi == NULL) {
 
@@ -100,7 +99,7 @@ int main() {
     }
 
 
-//"teklifveren_sayisi" değişkeninin pozitif bir tamsayı olduğunu kontrol eder
+//"teklifveren_sayisi" deÃ°iÃ¾keninin pozitif bir tamsayÃ½ olduÃ°unu kontrol eder
 
     if (teklifveren_sayisi <= 0) {
         printf("Gecersiz deger girdiniz.");
@@ -108,7 +107,7 @@ int main() {
     }
 
 
-//Teklif veren kişilerin tekliflerini alır
+//Teklif veren kiÃ¾ilerin tekliflerini alÃ½r
 
     for (i ; i < teklifveren_sayisi; ++i) {
         teklifler[i].teklifveren_no = i + 1;
@@ -118,12 +117,12 @@ int main() {
     }
 
 
-//"acikarttirma" fonksiyonunu çalıştırır
+//"acikarttirma" fonksiyonunu Ã§alÃ½Ã¾tÃ½rÃ½r
 
     acikarttirma(teklifler);
 
 
-//Program görevini tamamladığında "free" fonksiyonu ile kullanılmış olan hafızayı boşaltır
+//Program gÃ¶revini tamamladÃ½Ã°Ã½nda "free" fonksiyonu ile kullanÃ½lmÃ½Ã¾ olan hafÃ½zayÃ½ boÃ¾altÃ½r
 
     free(teklifler);
 
