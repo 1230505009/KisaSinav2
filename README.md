@@ -1,5 +1,11 @@
 #KISA SINAV 2
 
+          NOT
+
+2 tane kod üzerinde uğraştım. Odev/DevC klasöründeki kod çalışır durumda fakat verilen şemadakinden biraz farklı şekilde yapıldı.
+"Hatalı Kod" klasöründeki kod ise şemadaki gibi yapıldı fakat sürekli hata aldım. nedenini hala çözemedim, ikisini de atmak istedim.
+
+
 
           TYPEDEF
 
