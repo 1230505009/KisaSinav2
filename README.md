@@ -11,8 +11,8 @@ typedef ile var olan veri tiplerini yeni bir isme dönüştürmemize olanak sağ
 
 typedef struct {
     
-    int teklifveren_no;
-    double teklif;
+   int teklifveren_no;
+   double teklif;
 
 }Teklif;
 
@@ -28,9 +28,9 @@ struct, farklı veri tiplerindeki değişkenleri tek isim altında toplamamıza 
 
 struct <isim>{
 
-int sayi;
-char karakter;
-float sayi1;
+   int sayi;
+   char karakter;
+   float sayi1;
 
 };
 
